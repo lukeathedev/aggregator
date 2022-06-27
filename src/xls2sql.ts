@@ -1,3 +1,11 @@
+// Autor:      Lucas Alvarenga (lb.am.alvarenga@uel.br)
+// Descrição:  Converte planilhas que seguem o padrão
+//             estabelecido por '../template.xlsx' em
+//             statements SQL compatíveis com as tabe
+//             las definidas em '../../tables.sql' pa
+//             ra facilitar o carregamento de dados.
+// Criação:    2022-06-26
+
 import { log } from ".";
 
 import ExcelJS from "exceljs";
