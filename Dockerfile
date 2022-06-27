@@ -18,7 +18,7 @@ WORKDIR /usr/bin/aggregator
 VOLUME ./downloads
 
 COPY package*.json ./
-COPY .env .
+# COPY .env .
 
 RUN npm ci --omit=dev
 COPY --from=build /usr/src/aggregator/build ./
