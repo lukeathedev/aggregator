@@ -6,7 +6,7 @@ log.setLevel(config.log.level);
 
 import express from "express";
 import xls2sql from "./xls2sql";
-import { Pool, Client } from "pg";
+import { Pool } from "pg";
 
 const shutdown = () => {
   log.info("Shutting down...");
